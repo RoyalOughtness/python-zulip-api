@@ -50,7 +50,6 @@ setup(
         ],
     },
     install_requires=[
-        "pip",
         "zulip",
         "html2text",
         "lxml",
