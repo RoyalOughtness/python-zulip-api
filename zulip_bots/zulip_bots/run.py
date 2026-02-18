@@ -19,7 +19,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 def parse_args() -> argparse.Namespace:
     usage = """
-        zulip-run-bot <bot_name> --config-file ~/zuliprc
+        zulip-run-bot <bot> --config-file ~/zuliprc
         zulip-run-bot --help
         """
 
